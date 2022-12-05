@@ -14,6 +14,11 @@ const router = createBrowserRouter([
   { path: "/Play", element: <Play /> },
   ,
   { Path: "/Memory-Card-Game", element: <p>Test</p> },
+  {
+    Path: "https://faizanjatt.github.io/Memory-Card-Game/",
+    element: <p>Test2</p>,
+  },
+  ,
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
