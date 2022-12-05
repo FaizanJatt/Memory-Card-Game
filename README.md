@@ -1,7 +1,6 @@
 # Memory-Card-Game
 
 Live Page of this Project
-https://faizanjatt.github.io/Memory-Card-Game/
 <a href="https://faizanjatt.github.io/Memory-Card-Game/">Live Demo</a>
 
 
