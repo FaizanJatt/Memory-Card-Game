@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+}
+
+.header {
+  background-color: black;
+  padding: 20px;
+  color: #71cdd2;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 22px;
+  width: 100%;
+}
+.header:hover {
+  color: aliceblue;
+}
+
+.play-btn {
+  width: fit-content;
+  padding: 20px;
+  height: 20px;
+  background-color: #3f51b5;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+}
+.play-btn:hover {
+  /* background-color: #273ec0; */
+  color: black;
+}
+.description {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.card--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards--container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card--container:hover {
+  cursor: pointer;
+  border: solid black 3px;
+  background-color: hotpink;
+  color: white;
+}
+.card--image {
+  width: 150px;
+  height: 250px;
+}
+.card--name {
+  font-weight: bold;
+}
+
+.play--link > p {
+  color: black;
+  padding: 20px;
+  font-weight: bold;
+}
+.play--link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #747779;
+  font-size: 20px;
+}
+.play--link > p:hover {
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+.msg-area {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  padding: 12px;
+  gap: 20px;
+}
+
+.reset-btn {
+  background-color: hotpink;
+  color: black;
+  font-weight: bold;
+  padding: 12px;
+  font-size: 18px;
+}
+.reset-btn:hover {
+  color: white;
+}
+
+.reset-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.Footer {
+  background-color: black;
+  color: #71cdd2;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 12px;
+}
+
+.Footer > a {
+  color: #71cdd2;
+  font-weight: bold;
+}
+
+.Footer:hover,
+.Footer:hover > a {
+  background-color: #4e4444;
+  color: aliceblue;
+}
+
+.play--area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 627) {
+  .header {
+    font-size: 18px;
+  }
+  .play-btn,
+  .description {
+    font-size: 15px;
+  }
+  .card--image {
+    width: 110px;
+    height: 200px;
+  }
+}
+@media (max-width: 800px) {
+  .play-btn,
+  .description {
+    font-size: 15px;
+  }
+  .card--image {
+    width: 125px;
+    height: 220px;
+  }
+}
